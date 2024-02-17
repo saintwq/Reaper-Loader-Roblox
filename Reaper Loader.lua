@@ -1,8 +1,3 @@
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
-print("https://discord.gg/aUd8umqUKu")
-toclipboard("https://discord.gg/aUd8umqUKu")
 if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Death") then
 	game:GetService("ReplicatedStorage").Effect.Container.Death:Destroy()
 end
