@@ -1,13 +1,13 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/saintwq/Reaper-Loader-Roblox/main/config.lua'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Reaper Loader",
-   LoadingTitle = "🔫 Gun Simulator 💥",
-   LoadingSubtitle = "by 1_F0",
+   LoadingTitle = "Loading Script Please Wait...",
+   LoadingSubtitle = "Script By Saintzada!",
    ConfigurationSaving = {
       Enabled = false,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "Example Hub"
+      FileName = "Reaper Loader"
    },
    Discord = {
       Enabled = false,
@@ -16,27 +16,27 @@ local Window = Rayfield:CreateWindow({
    },
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Key | Youtube Hub",
-      Subtitle = "Key System",
-      Note = "Key In Discord Server",
-      FileName = "YoutubeHubKey1", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      Title = "Reaper Loader",
+      Subtitle = "Insert Key To Begin.",
+      Note = "buy the key from iG @reaperloader",
+      FileName = "reaperloaderbegins", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
       Key = {"https://pastebin.com/raw/AtgzSPWK"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 
-local MainTab = Window:CreateTab("🏠 Home", nil) -- Title, Image
+local MainTab = Window:CreateTab("Legit", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
-   Title = "You executed the script",
-   Content = "Very cool gui",
+   Title = "Script Loaded",
+   Content = "Sucess!",
    Duration = 5,
    Image = 13047715178,
    Actions = { -- Notification Buttons
       Ignore = {
-         Name = "Okay!",
+         Name = "Ok!",
          Callback = function()
          print("The user tapped Okay!")
       end
@@ -129,7 +129,7 @@ local Toggle = MainTab:CreateToggle({
    end,
 })
 
-local TPTab = Window:CreateTab("🏝 Teleports", nil) -- Title, Image
+local TPTab = Window:CreateTab("Teleports", nil) -- Title, Image
 
 local Button1 = TPTab:CreateButton({
    Name = "Starter Island",
@@ -152,4 +152,14 @@ local Button3 = TPTab:CreateButton({
    end,
 })
 
-local TPTab = Window:CreateTab("🎲 Misc", nil) -- Title, Image
+local TPTab = Window:CreateTab("teste sla", nil) -- Title, Image
+
+
+local TPTab = Window:CreateTab("kaue gay", nil) -- Title, Image
+local Button1 = TPTab:CreateButton({
+   Name = "Tudo dois passa nada KKKKKKKKKKKKKKKK",
+   Callback = function()
+        --Teleport1
+   end,
+})
+
