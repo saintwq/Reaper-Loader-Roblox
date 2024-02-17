@@ -55,7 +55,7 @@ if _G.infinJumpStarted == nil then
 	_G.infinJumpStarted = true
 	
 	--Notifies readiness
-	game.StarterGui:SetCore("SendNotification", {Title="Youtube Hub"; Text="Infinite Jump Activated!"; Duration=5;})
+	game.StarterGui:SetCore("SendNotification", {Title="Reaper Loader"; Text="Infinite Jump Activated!"; Duration=5;})
 
 	--The actual infinite jump
 	local plr = game:GetService('Players').LocalPlayer
@@ -159,7 +159,7 @@ local TPTab = Window:CreateTab("kaue gay", nil) -- Title, Image
 local Button1 = TPTab:CreateButton({
    Name = "Tudo dois passa nada KKKKKKKKKKKKKKKK",
    Callback = function()
-        --Teleport1
+   game.StarterGui:SetCore("SendNotification", {Title="Reaper Loader"; Text="Infinite Jump Activated!"; Duration=5;})
    end,
 })
 
